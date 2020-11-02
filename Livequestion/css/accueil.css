@@ -1,0 +1,436 @@
+.main{
+	background-color: rgb(35,50,55);
+}
+.main2{
+	margin-bottom: 100px;
+}
+
+/* navbar */
+
+.navbar{
+	padding: 20px 0;
+}
+.accueil{
+	margin: 0 auto;
+	height: fit-content;
+	padding: 0;
+}
+.titre{
+	float: left;
+	font-size: 2rem;
+	color: white;
+	font-weight: 700;
+}
+.navbar-nav{
+	float: right;
+	display: block;
+}
+.nav-item{
+	float: left;
+}
+.lien-nav{
+	margin-right: 50px;
+	padding: 10px 0;
+	color: rgb(150,150,150) !important;
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+.btn-connexion{
+	padding: 5px 25px;
+	background-color: rgb(240,0,150);
+	border-radius: 30px;
+	color: white;
+	font-weight: 500;
+	font-size: 1.25rem;
+}
+.btn-connexion a{
+	color: rgb(220,220,220);
+}
+.dropdown{
+	visibility: hidden;
+	float: right;
+	height: 55.6px;
+	width: 0;
+}
+#dropdownMenuButton{
+	border: none;
+	padding: 0;
+	background-color: rgba(0,0,0,0);
+	height: 100%;
+	outline: none;
+}
+.fa-caret-down{
+	color: white;
+	margin: 0 10px;
+}
+.dropdown-menu{
+	position: absolute !important;
+}
+
+/* presentation */
+
+.presentation{
+	margin-top: 100px;
+	height: 650px;
+}
+.texte-presentation{
+	color: white;
+	float: left;
+	font-weight: 500;
+	width: 40%;
+}
+.titre-presentation{
+	font-size: 5.25rem;
+	margin-bottom: 25px;
+	margin-top: -25px;
+	line-height: 90px;
+}
+.para-presentation{
+	font-size: 1.25rem;
+	line-height: 35px;
+	text-align: justify;
+}
+.image-presentation{
+	height: 500px;
+	width: 55%;
+	background-image: url("../ressources/maquette/ressources/step-1.png");
+	background-size: cover;
+	background-position: center;
+	float: right;
+}
+.btn-cta{
+	padding: 15px 30px;
+	width: fit-content;
+	background-color: rgb(240,0,150);
+	border-radius: 30px;
+	font-size: 1.25rem;
+	margin-top: 20px;
+}
+.main2{
+	background-color: white;
+}
+.main3{
+	background-color: #F9FAFD;
+}
+.liensv
+{ 
+	text-align: center;
+    color: #EB038A;
+    margin-left: 35px;
+}
+
+.liensv:hover, .liensv:active
+{ 
+	text-align: center;
+    color: white;
+    margin-left: 35px;
+    border: 1px none #EB038A;
+    background-color: #EB038A;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.liensv2 p:not(:target)
+{
+    display: none;
+}
+.liensv2 p:target
+{
+    display: block;
+}
+.imgcenter
+{
+    text-align: center;
+}
+.description-presentation{
+	height: 500px;
+	margin: 150px auto 0 auto;
+}
+.conteneur{
+	float: left;
+	width: 30%;
+}
+.icone-accueil{
+	width: 50px;
+	height: 50px;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 30px;
+}
+.eclair{
+	background-image: url("../ressources/maquette/ressources/i1.png");
+}
+.marqueur{
+	background-image: url("../ressources/maquette/ressources/i2.png");
+}
+.cadre{
+	background-image: url("../ressources/maquette/ressources/i3.png");
+}
+.sous-titre-accueil{
+	font-size: 1.75rem;
+	margin-bottom: 20px;
+}
+.para-accueil{
+	font-size: 1.5rem;
+	text-align: justify;
+}
+.arrondi_haut_presentation{
+	height: 60px;
+	background-color: rgb(35,50,55);
+	width: 100%;
+	border-radius: 45%;
+	border-top-right-radius: 0%;
+	border-top-left-radius: 0%;
+}
+.magna
+{
+    text-align: center;
+}
+/* partie faq */
+.texte_blanc{
+	color: white;
+}
+.gras{
+	font-weight: bold;
+}
+.partie_haut_faq{
+	text-align: center;
+	background-color: #D50076;
+	width: 100%; 
+	padding-bottom: 50px;
+	padding-top: 80px;
+}
+.titre_partie_haut_faq{
+	font-size: 3em;
+}
+.paragraphe_partie_haut_faq , .marques_partie_haut_faq{
+	width: 45%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	padding-bottom: 20px
+}
+.marque{
+	background-color: white;
+	color: black;
+	width: 20%;
+	border-radius: 5px;
+	float: left;
+	margin-right: 5%;
+	margin-top: 15px;
+	padding: 1px;
+}
+.marques_du_bas{
+	width: 100%;
+	padding-left: 15%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.arrondi_haut_faq{
+	height: 150px;
+	background-color: #D50076;
+	width: 100%;
+	border-radius: 45%;
+	border-top-right-radius: 0%;
+	border-top-left-radius: 0%;
+}
+.question_faq{
+	border: solid rgb(240,240,240) 1px;
+	font-weight: bold;
+	text-align: left;
+	margin-top: 15px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 5px;
+}
+.bouton_faq:hover{
+	color: black;
+	text-decoration: none;
+}
+.fleche_droite_faq{
+	width: 10px;
+	height: 10px;
+	float: right;
+}
+.tout_faq{
+	text-align: center;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	border-radius: 45%;
+	border-top-right-radius: 0%;
+	border-top-left-radius: 0%;
+	padding-top: 50px;
+}
+.tout_faq2{
+	text-align: center;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+}
+.reponse_faq{
+	border: solid rgb(240,240,240) 1px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px; 
+	border-top: none;
+	text-align: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+}
+.bouton_faq{
+	color: black;
+}
+.titre_question_faq , .fleche_droite_faq{
+	display: inline-block;
+}
+.titre_question_faq{
+	margin: 0;
+}
+.get_in_touch_faq{
+	color: rgb(240,0,150);
+	font-weight: bold;
+}
+.get_in_touch_faq:hover{
+	color: rgb(240,0,150);
+	text-decoration: none;
+}
+.phrase_bas_faq{
+	background-color: rgb(240,240,240);
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	border-radius: 5px;
+}
+.phrases_haut_faq{
+	margin-bottom: 60px;
+	margin-top: 20px;
+}
+.footer_faq{
+	background-color: #1A2D34;
+	width: 100%;
+	height: 300px;
+}
+.arrondi_footer_faq{
+	width: 100%;
+	height: 55%;
+	background-color: white;
+	border-radius: 45%;
+	border-top-left-radius: 0%;
+	border-top-right-radius: 0%;
+}
+.copyright{
+	margin-left: auto;
+	margin-right: auto;
+	width: 65%;
+	margin-top: 5%;
+	border-top: solid white 1px;
+}
+.reseaux{
+	float: right;
+}
+/* responsive accueil */
+@media screen and (max-width: 1800px){
+	.titre{
+		font-size: 1.5rem;
+		margin-top: 8px;
+	}
+	.lien-nav{
+		margin-right: 10px;
+		font-size: 1.25rem;
+		margin-top: 2px;
+	}
+	.btn-connexion{
+		font-size: 1rem;
+		padding: 0 15px;
+		margin-top: 6px;
+	}
+	.presentation{
+		height: 1050px;
+	}
+	.texte-presentation, .image-presentation{
+		width: 100%;
+	}
+	.titre-presentation{
+		text-align: center;
+	}
+	.para-presentation{
+		text-align: center;
+	}
+	.image-presentation{
+		margin-top: 50px;
+	}
+	.btn-cta{
+		margin: 50px auto 0 auto;
+	}
+	.conteneur{
+		float: left;
+		width: 25%;
+	}
+	.sous-titre-accueil{
+		font-size: 1.5rem;
+	}
+	.para-accueil{
+		font-size: 1rem;
+		text-align: justify;
+	}
+	.tout_faq,.paragraphe_partie_haut_faq , .marques_partie_haut_faq{
+		width: 75%;
+	}
+}
+
+@media screen and (max-width: 720px){
+	.lien-nav{
+		display: none;
+	}
+	.dropdown{
+		height: 28.8px;
+		width: fit-content;
+		visibility: visible;
+	}
+	.fa-caret-down{
+		height: 100%;
+		margin-top: 10px;
+	}
+	.titre-presentation{
+		font-size: 3.25rem;
+	}
+	.conteneur{
+		width: 100%;
+		margin-bottom: 40px;
+	}
+}
+
+@media screen and (max-width: 540px){
+	.titre{
+		font-size: 0.75rem;
+		margin-top: 8px;
+	}
+	.btn-connexion{
+		font-size: 0.75rem;
+	}
+	.fa-caret-down{
+		margin-top: 6px;
+	}
+	.titre-presentation{
+		font-size: 2.5rem;
+	}
+	.para-presentation{
+		font-size: 1rem;
+	}
+	.presentation{
+		margin-top: 50px;
+	}
+	.image-presentation{
+		height: 300px;
+	}
+	.tout_faq,.paragraphe_partie_haut_faq , .marques_partie_haut_faq{
+		width: 90%;
+	}
+}

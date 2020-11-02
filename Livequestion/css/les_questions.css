@@ -1,0 +1,44 @@
+.body{
+    background-color: lightgrey;
+}
+.main{
+    padding: 25px 20px;
+}
+.profile_pic_question{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 10px;
+}
+.description p{
+    margin: 0;
+    display: inline-block;
+}
+.triangle{
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border-top-right-radius: 100%;
+}
+.question_text{
+    background-color: white;
+    float: left;
+    padding: 0 15px;
+}
+.question_text a{
+    color: black;
+}
+.question_text a:hover{
+    text-decoration: none;
+}
+.required{
+    color: darkmagenta;
+}
+.options input{
+    width: 50%;
+    height: 35px;
+    outline: none;
+}
+.nav:first-of-type{
+    padding: 20px 0 0 20px;
+}

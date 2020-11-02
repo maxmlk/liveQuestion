@@ -1,0 +1,9 @@
+body{
+  background-image:url("../fond_inscription.jpg");
+}
+.titre{
+  margin: 50px 0 100px 0; 
+}
+input, select{
+  margin-bottom: 5px;
+}

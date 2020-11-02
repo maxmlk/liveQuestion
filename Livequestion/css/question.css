@@ -1,0 +1,78 @@
+.body{
+    background-color: lightgrey;
+}
+
+.main{
+    padding: 25px 20px;
+}
+
+.profile_pic_question{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 10px;
+}
+
+.image{
+    width: 20px;
+    height: 20px;
+}
+
+.description p{
+    margin: 0;
+    display: inline-block;
+}
+
+.like{
+    width: 20px;
+    height: 20px;
+    background-image: url("../ressources/coeur.svg");
+    background-size: cover;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.liked{
+    width: 20px;
+    height: 20px;
+    background-image: url("../ressources/coeurRouge.svg");
+    background-size: cover;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.triangle{
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border-top-right-radius: 100%;
+}
+
+.question_text{
+    background-color: white;
+    float: left;
+    padding: 0 15px;
+}
+
+.required{
+    color: darkmagenta;
+}
+
+.options input{
+    width: 50%;
+    height: 35px;
+    outline: none;
+}
+
+.triangle{
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border-top-right-radius: 100%;
+}
+
+.reponse_text{
+    background-color: white;
+    float: left;
+    padding: 0 15px;
+}
